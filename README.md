@@ -15,7 +15,7 @@ The schema includes the following tables:
 ### Functions and Procedures
 The schema includes several functions and procedures to help manage the data:
 
-calculate_total_price(order_id INTEGER): calculates the total price of an order by summing the price of all items in the order.
+`calculate_total_price(order_id INTEGER):` calculates the total price of an order by summing the price of all items in the order.
 `get_most_popular_item():` returns the name of the most popular item based on the total quantity ordered.
 `add_customer(name TEXT, phone TEXT):` adds a new customer to the customers table.
 `add_order(customer_id INTEGER, order_date DATE):` adds a new order to the orders table and updates the total price of the order using the `calculate_total_price` function.

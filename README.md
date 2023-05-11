@@ -23,8 +23,9 @@ The schema includes several functions and procedures to help manage the data:
 ### Cursors
 The schema includes two cursors to help retrieve data:
 
-`all_orders:` retrieves all orders for a specific customer.
-`all_items:` retrieves all items for a specific order.
+`all_orders:`is used to retrieve all orders placed by a particular customer. In this case, it has been declared to retrieve orders for the customer with an ID of 1, but the value can be modified to retrieve orders for other customers.
+
+`all_items:`is used to retrieve all items from a particular order. In this case, it has been declared to retrieve items for the order with an ID of 1, but the value can be modified to retrieve items for other orders.
 
 ### Triggers
 The schema includes two triggers to help maintain data integrity:
